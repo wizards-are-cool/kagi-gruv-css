@@ -1,5 +1,5 @@
 # kagi-gruv-css
-Dark Gruvbox CSS style for the paid Kagi search engine.
+Dark Gruvbox CSS style for Kagi.
 
 
 ## How to Install
