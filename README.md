@@ -8,7 +8,7 @@ Dark Gruvbox CSS style for the paid Kagi search engine.
 2. Toggle theme to the `Dark` theme if it isn't already selected.
 3. Go to `Custom CSS` section.
 4. Toggle `Enable CSS` button.
-5. Paste or import(?) (TODO check if this works) [kagi.css](/) 
+5. Copy and paste [kagi.css](/kagi.css) into the custom style box. 
 6. Click `Save Changes`.
 
 > [!NOTE]
