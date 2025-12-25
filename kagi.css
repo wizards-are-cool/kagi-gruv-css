@@ -1,0 +1,118 @@
+:root {
+    --bg0: #1d2021;
+    --bg1: #282828;
+    --orange: #d65d0e;
+    --alt-orange: #de7b41;
+    --bg-lighter: #3e3e3e;
+    --blue: #458588;
+    --red: #cc241d;
+    --purple: #b16286;
+    --alt-purple: #d3869b;
+    --alter-purple: #e6a2b3;
+    --aqua: #689d6a;
+    --green: #bfbe39;
+    --bg-green: #464635;
+    --gray: #504945;
+    --font-main: Atkinson Hyperlegible Next;
+    --success: var(--green);
+    --search-result-date-bg: var(--bg-lighter);
+    --app-bg: var(--bg1);
+    --modal-bg: var(--bg0);
+    --inline-widget-bg: var(--bg0);
+    --nav_n_se_line: var(--orange);
+    --nav_n_im_line: var(--blue);
+    --nav_n_vi_line: var(--red);
+    --nav_n_ma_line: var(--aqua);
+    --nav_n_ne_line: var(--purple);
+    --result-item-title-border: #4d4d4d;
+    --primary-visited: var(--alt-purple);
+    --primary-hover: var(--alter-purple);
+    --primary-hover-hover: var(--alter-purple);
+    --result-item-title-border_hover: var(--alter-purple);
+    --inline-widget-bg: var(--bg0);
+    --search-result-date-bg: var(--bg-lighter);
+    --app-text: #fbf1c7;
+    --primary: var(--app-text);
+    --search-result-title: var(--alt-orange);
+    --not-found-bubble-bg: var(--bg0);
+    --focus-outline: 3px solid var(--orange);
+    --domain-rank-icon-color-trackers: var(--orange);
+    --primary-700: var(--app-text);
+}
+
+#bell_notification::after {
+    background-color: var(--orange);
+}
+
+._0_quick_answer_trigger_btn {
+    /* disable AI button */
+    visibility: hidden;
+}
+
+.__sri-time.--new {
+    background-color: var(--bg-green);
+    color: var(--green);
+}
+
+._0_lenses {
+    border: 1px solid var(--primary-100) !important;
+    border-radius: 12px;
+    background: none;
+}
+
+.k_ui_toggle_switch {
+    background-color: var(--modal-bg);
+}
+
+.k_ui_toggle_switch input:checked ~ .k_ui_toggle_switch_bar,
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar,
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar {
+    background: var(--orange);
+    border-color: var(--orange);
+}
+
+.k_ui_toggle_switch input:checked ~ .k_ui_toggle_switch_bar::after,
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar::after,
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar::after {
+    border-color: var(--orange);
+    background-color: var(--app-text);
+}
+
+.k_ui_toggle_switch .k_ui_toggle_switch_bar::after {
+    background-color: var(--app-text);
+    border-color: var(--gray);
+}
+
+.k_ui_toggle_switch .k_ui_toggle_switch_bar {
+    background-color: var(--gray);
+    border-color: var(--gray);
+}
+
+._0_right_sidebar _0_provider-content {
+    background-color: var(--bg0);
+}
+
+footer {
+    visibility: hidden;
+}
+
+.quick-settings .service-status-light {
+    background-color: var(--green);
+}
+
+._0_rank-icons:hover svg {
+    color: var(--alter-purple);
+}
+
+#icon_shield_higher {
+    color: var(--green);
+}
+#icon_shield_boost {
+    color: var(--aqua);
+}
+#icon_shield_ban {
+    color: var(--red);
+}
+#icon_shield_lower {
+    color: var(--orange);
+}
