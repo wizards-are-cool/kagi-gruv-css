@@ -16,7 +16,7 @@ Dark Gruvbox CSS style for Kagi.
 
 ## Tweaks
 ### Change Font
-I use Atkinson Hyperlegible Next because it's easier for me to read when I'm not wearing my glasses. Change `--font-main` to any font you'd like. 
+Change font in `--font-main`. 
 ### Re-enable AI button in search
 Remove `visbility: hidden;` from `._0_quick_answer_trigger_btn`.
 
