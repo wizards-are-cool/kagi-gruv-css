@@ -21,10 +21,6 @@ Change font in `--font-main`.
 Remove `visbility: hidden;` from `._0_quick_answer_trigger_btn`.
 
 ## Gallery
-![kagi homepage](/images/homepage.webp)
-![kagi search of kagi](/images/examplesearch1.webp) 
-![kagi gallery search of albert einstein](/images/examplesearch2.webp) 
-
 
 ## Resources
 - [Official Kagi Help Page](https://help.kagi.com/kagi/features/custom-css.html)
