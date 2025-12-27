@@ -17,8 +17,8 @@ Dark Gruvbox CSS style for Kagi.
 ## Tweaks
 ### Change Font
 Change font in `--font-main`. 
-### Re-enable AI button in search
-Remove `visbility: hidden;` from `._0_quick_answer_trigger_btn`.
+### Remove AI Features
+Append [kagi-no-ai](https://codeberg.org/zerodogg/kagi-no-ai/raw/branch/main/kagi-no-ai.css) to this theme.
 
 ## Gallery
 
