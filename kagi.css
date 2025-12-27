@@ -13,6 +13,7 @@
     --green: #bfbe39;
     --bg-green: #464635;
     --gray: #504945;
+    --yellow: #d79921;
     --success: var(--green);
     --search-result-date-bg: var(--bg-lighter);
     --app-bg: var(--bg1);
@@ -41,11 +42,6 @@
 
 #bell_notification::after {
     background-color: var(--orange);
-}
-
-._0_quick_answer_trigger_btn {
-    /* disable AI button */
-    visibility: hidden;
 }
 
 .__sri-time.--new {
@@ -114,4 +110,8 @@ footer {
 }
 #icon_shield_lower {
     color: var(--orange);
+}
+
+.landing-category-select .landing_cat_buttons > button {
+    color: var(--primary);
 }
